@@ -5,6 +5,7 @@ wget http://ppa.launchpad.net/dajhorn/dante/ubuntu/pool/main/d/dante/dante-serve
 apt-get install gdebi-core
 dpkg -i dante-server_1.4.1-1_amd64.deb
 
+
 cat >/etc/sockd.conf <<EOL
 # listen on... can be an IP or an interface
 internal: eth0 port = 1080
