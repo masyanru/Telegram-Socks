@@ -45,4 +45,4 @@ socks pass {
 }
 EOL
 
-/etc/init.d/sockd start
+service danted start
