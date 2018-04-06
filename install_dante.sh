@@ -6,7 +6,7 @@ apt-get install gdebi-core
 dpkg -i dante-server_1.4.1-1_amd64.deb
 
 
-cat >/etc/sockd.conf <<EOL
+cat >/etc/danted.conf <<EOL
 # listen on... can be an IP or an interface
 internal: eth0 port = 1080
 # send out through... can be an IP or an interface
