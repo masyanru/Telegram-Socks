@@ -19,7 +19,7 @@ user.unprivileged: nobody
 # auth with user login, passwd
 socksmethod:       username
 # log to this file
-logoutput:         /var/log/sockd.log
+# logoutput:         /var/log/sockd.log
 
 # allow everyone from everywhere so long as they auth, log errors
 client pass {
