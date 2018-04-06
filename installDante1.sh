@@ -2,7 +2,7 @@
 
 apt-get -y update
 wget http://ppa.launchpad.net/dajhorn/dante/ubuntu/pool/main/d/dante/dante-server_1.4.1-1_amd64.deb
-sudo apt-get install gdebi-core
+apt-get install gdebi-core
 dpkg -i dante-server_1.4.1-1_amd64.deb
 
 cat >/etc/sockd.conf <<EOL
