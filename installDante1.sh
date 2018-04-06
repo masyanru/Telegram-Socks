@@ -2,11 +2,8 @@
 
 apt-get -y update
 wget http://ppa.launchpad.net/dajhorn/dante/ubuntu/pool/main/d/dante/dante-server_1.4.1-1_amd64.deb
-
-dpkg -i dante-server_1.4.1-1_amd64.deb
-
 sudo apt-get install gdebi-core
-sudo gdebi dante-server_1.4.1-1_amd64.deb
+dpkg -i dante-server_1.4.1-1_amd64.deb
 
 cat >/etc/sockd.conf <<EOL
 # listen on... can be an IP or an interface
